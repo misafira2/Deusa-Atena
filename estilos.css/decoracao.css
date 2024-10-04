@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+}
+
+/* TAGS */
+
+body{
+   background: linear-gradient( #425C59, #A2A384, #B99963);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   width: 85%;
+   margin: 0 auto;
+}
+
+p{
+    line-height: 1.2em;
+}
+
+h1{
+    width: 80%;
+    text-align: center;
+    clear: both;
+    padding-left: 10%;
+}
+
+h2{
+    padding: 0px;
+    text-align: center;
+}
+
+hr{
+    clear: both;
+}
+/*ID's*/
+
+#fundoPro{
+    background-color: #38634D;
+    border-radius: 30px;
+    margin: 1%;
+}
+
+#fundo {
+    background-color: rgb(212, 167, 121);
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    clear: both;
+}
+
+#rodape{
+    background-color: #b8a687;
+    border: 1px solid rgb(61, 81, 104) ;
+    border-radius: 60px;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#menu{
+    background-color: rgb(191, 146, 107, 0.822);
+    text-align: center;
+    border-radius: 80px;
+    clear:both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#frase{
+    width: 80%;  
+    text-align: center;
+    clear:both;
+    padding: 80px;   
+    padding-left: 10%;
+}
+
+#margin{
+    padding: 5%;
+}
+
+/*CLASSES*/
+
+/*MENU*/
+
+a:link {
+    color:  rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 10px;
+}                            
+ 
+a:hover{
+    color: #1f1d1d;
+    background-color:rgb(243, 226, 204);
+    text-decoration: underline; /*tipos de decoration*/
+    border-radius: 30PX;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:active{
+    color: rgb(236, 149, 50); /* talvez seja um problema na ordem*/
+}
+
+/*RODAPE*/
+
+.eu{
+    width: 15%;
+    border: 3px solid rgb(61, 81, 104);
+    border-radius: 30px;
+}
+.linkeuE{
+   margin-left:200px;
+}
+
+.linkeuI{
+    margin-right:200px;
+}
+
+.direitos{
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 2px;
+}
+
+.tabela{
+    margin: 0% 18%;
+    padding-top: 5px;
+}
+
+
+/*INICIO*/
+
+.perfil{
+    width: 99.4%;
+    border: 5px solid #425C59;
+    border-radius: 30px;
+}
+
+.paragrafos{
+    width: 100%;
+    clear:both;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.pgrf2{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.estatua1{
+    width: 20%;
+    border: 15px ridge rgb(202, 160, 117);
+    float: left;
+    margin: 1%;
+    border-radius: 25px;
+}
+.estatua2{
+    width: 17%;
+    border: 15px ridge  rgb(202, 160, 117);
+    float: left;
+    margin: 1%;
+    border-radius: 25px;
+}
+.estatua3{
+    width: 19%;
+    border: 15px ridge rgb(202, 160, 117);
+    float: right;
+    margin: 1%;
+    border-radius: 25px;
+}
+
+img.cor-um{
+    border: 15px ridge rgb(202, 160, 117);
+    margin: 1%;
+    float: right;
+    width: 32%;
+    border-radius: 25px;
+}
+img.cor-dois{
+    border: 15px ridge rgb(202, 160, 117);
+    margin: 2%;
+    float: left;
+    width: 32%;
+    border-radius: 25px;
+}
+
+/*PRODUTOS*/
+.perfilP{
+    width: 99.4%;
+    border: 5px solid #425C59;
+    border-radius: 30px;
+    border-bottom: 0px;
+}
+
+.corPro{
+    color: white;
+}
+
+.cadernos{
+    border: 1px solid  rgba(69, 112, 70, 0.89);;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 13%;
+}
+
+.lista{
+    margin-left: 30%;
+}
+
+.mais{
+    background-color: rgb(11, 57, 110);
+    color: white;
+}
+
+.brinde{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.fundobrindes{
+    background-color: rgb(245, 245, 175);
+    width: 50%;
+    text-align: center;
+    margin: 0% 25% 0% 25%;
+    border-radius: 20px;
+}
+.mgbrind{
+    padding: 8px;
+}
+.oliveiras{
+    width: 40%;
+    border: 1px solid rgb(245, 245, 175);
+    border-radius: 30px;
+}
+
+.imgamuleto{
+    width: 50%;
+    border: 1px solid rgb(245, 245, 175);
+    border-radius: 30px;
+}
+
+.parenteses{
+    font-size: 17px;
+}
+
+/*LISTAS*/
+.pading{
+    padding: 8%;
+    padding-top: 15px;
+}
+.galeria{ 
+    width: 100%;
+    border: 2px solid rgb(88, 88, 88);
+    border-radius: 30px;
+    margin: 10px;
+    margin-bottom: 40px;
+    background-color: rgb(212, 167, 121);
+    clear: both;
+}
+.galeria img{
+    width: 30%;
+    height: auto; 
+    border-radius: 10px;
+    float: left;
+    margin: 2%;
+}
+
+.galeria:hover{
+    border: 2px solid rgb(233, 215, 215);
+}
+
+.descricao{
+    text-align: left;
+    padding: 6.5%;
+}
+
+.tituloartistas{
+    text-align: center;
+}
+
+.funciona{
+    width: 100%;
+    border: 2px solid rgb(88, 88, 88);
+    border-radius: 30px;
+    margin: 10px;
+    margin-bottom: 40px;
+    background-color: rgb(212, 167, 121);
+    clear: both;
+}
+.funciona img{
+    width: 19%;
+    height: auto; 
+    border-radius: 10px;
+    float: left;
+    margin: 2%;
+}
+
+.tamanho{
+    font-size: 28px;
+}
+/*GALERIA*/
+
+
+.bigfoto{
+    width: 80%;
+    border: 8px ridge rgb(245, 245, 175);
+    border-radius: 30px;
+    margin: 5% 10% 0% 10%;
+}
+.lgdB{
+    background-color: rgb(245, 245, 175);
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 3px;
+}
+.legenda{
+    background-color: #425c59c9;
+    border-radius: 10px;
+    float: right;
+    width: 40%;
+    padding: 5px;
+    margin: 8% 4%;
+}
+
+.descri{
+    background-color:  rgba(99, 122, 96, 0.795);
+    border-radius: 10px;
+    float: left;
+    width: 40%;
+    padding: 5px;
+    margin: 8% 4%;
+}
+
+
+.ftdire{
+    width: 40%;
+    border: 15px ridge rgb(202, 160, 117);
+    float: left;
+    margin: 1%;
+    border-radius: 25px;
+}
+
+.ftesquer{
+    width: 40%;
+    border: 15px ridge rgb(202, 160, 117);
+    float: right;
+    margin: 1%;
+    border-radius: 25px;
+}
+
+.fundo {
+    background-color: rgb(212, 167, 121);
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    clear: both;
+}
+
+.sopraela{
+    width: 30%;
+}
+
+.reto{
+    margin-top: 5%;
+}
